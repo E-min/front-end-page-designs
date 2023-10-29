@@ -1,0 +1,9 @@
+@mixin box-shadow($spread, $color) {
+ box-shadow:  0 0 $spread 0 $color;
+}
+@mixin flex($horizontal, $vertical, $direction: none) {
+    display: flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+    flex-direction: $direction;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+body {
+  background-image: url("./img/NetflixBackgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 0 40px 0;
+    max-width: 1240px;
+    margin: 30px auto 30px auto;
+}
+form {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 350px;
+  margin: 10px auto 10px auto;
+}
+.header {
+    text-align: center;
+}
+.header h1 {
+    font-size: 2.5em;
+    font-family: 'Titan One', cursive;
+    font-weight: bolder;
+    line-height: 1.6em;
+}
+.header p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.main {
+  text-align: center;
+}
+.main label,
+.main input {
+  display: block;
+  text-align: left;
+  margin: auto;
+  line-height: 3em;
+}
+.main label {
+  color: white;
+  width: 290px;
+}
+.main input,
+select {
+  width: 290px;
+  height: 40px;
+  padding: 10px;
+}
+.cehckbox input {
+  text-align: left;
+}
+legend {
+  line-height: 1.4em;
+}
+.checkbox,
+.selectbox {
+  margin-top: 16px;
+  color: white;
+  padding-left: 29px;
+}
+.textarea {
+  text-align: center;
+}
+.textarea label {
+  text-align: left;
+  display: block;
+  color: white;
+  width: 290px;
+  margin: auto;
+  line-height: 3em;
+}
+.textarea textarea {
+  overflow: hidden;
+  resize: none;
+  width: 290px;
+  height: 100px;
+  padding: 10px;
+}
+#submit-btn {
+  border: none;
+  background-color: red;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+.btn-container {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}

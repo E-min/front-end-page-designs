@@ -1,0 +1,59 @@
+.main {
+  max-width: 1800px;
+  margin: 0 auto;
+  &__about {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    gap: 20px;
+    &--header {
+      display: flex;
+      justify-content: space-between;
+    }
+    &--photos {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(12, 1fr);
+    }
+    &--card-1 {
+      background-image: url("../assets/Fanjingshan.jpg");
+    }
+    &--card-2 {
+      background-image: url("../assets/raja.jpg");
+    }
+    &--card-3 {
+      background-image: url("../assets/Skadar.jpg");
+    }
+    &--card-4 {
+      background-image: url("../assets/Vevey.jpg");
+    }
+  }
+}
+.card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  grid-column: span 3;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 grey;
+  &-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 0 10px 0 10px;
+    padding: 5px 10px;
+    width: 120px;
+    height: 45px;
+    box-shadow: 0 0 1px 0 grey;
+    & p {
+      opacity: 0.8;
+      padding-top: 3px;
+      font-size: 0.8rem;
+    }
+  }
+}

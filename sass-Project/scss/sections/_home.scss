@@ -1,0 +1,56 @@
+.main {
+  padding: 50px 20px;
+  &__home {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+    &--form {
+      @include flex(center, center, column);
+      gap: 10px;
+      grid-column: span 6;
+      text-align: center;
+      &-h {
+        font-size: 3rem;
+        color: #202336;
+      }
+      &-p {
+        font-size: 1.5rem;
+        color: #202336;
+      }
+      &--select-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        padding: 10px 0;
+      }
+      &-container {
+        width: 100%;
+        max-width: 650px;
+        padding: 10px;
+        & input {
+          margin-top: 10px;
+          padding: 10px;
+          border: none;
+          color: white;
+          background-color: $button-color;
+        }
+      }
+      &-selecet {
+        border: 1px solid #4a4c53;
+        font-size: 1rem;
+        padding: 10px;
+        color: #202336;
+      }
+    }
+    &--img {
+      width: 100%;
+      max-width: 520px;
+      &-container {
+        text-align: center;
+        grid-column: span 6;
+      }
+    }
+  }
+}

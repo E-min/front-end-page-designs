@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix Survey</title>
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <h1>
+          <span style="color: white"
+            ><span style="font-size: 1.1em; letter-spacing: 0.05em">N</span
+            >ET</span
+          ><span style="color: red"
+            ><span style="font-size: 1.1em;">F</span
+            >LIX</span
+          >
+        </h1>
+        <p>Thank you for signing up on Netflix. Tell us more about yourself</p>
+      </section>
+      <section>
+        <form action="#" method="get">
+          <fieldset class="main">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter your age" />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Entere your email" />
+            <label for="contenttype">Content type</label>
+            <select name="contenttype" id="contenttype">
+              <option value="series" selected>Series</option>
+              <option value="movies">Movies</option>
+              <option value="tvshows">Tv-shows</option>
+            </select>
+          </fieldset>
+          <fieldset class="checkbox">
+            <legend>Movie type</legend>
+            <input type="checkbox" name="comedy" id="comedy" />
+            <label for="comedy">Comedy</label><br />
+            <input type="checkbox" name="action" id="action" />
+            <label for="action">Action</label><br />
+            <input type="checkbox" name="romance" id="romance" />
+            <label for="romance">Romance</label>
+          </fieldset>
+          <fieldset class="selectbox">
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label><br />
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label><br />
+            <input type="radio" name="gender" id="other" checked />
+            <label for="other">Other</label>
+          </fieldset>
+          <fieldset class="textarea">
+            <label for="feedback">Feedback</label>
+            <textarea
+              name="feedback"
+              id="feedback"
+              placeholder="Any comment"
+            ></textarea>
+          </fieldset>
+          <div class="btn-container">
+            <input type="submit" value="Submit" id="submit-btn" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

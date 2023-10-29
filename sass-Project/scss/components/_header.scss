@@ -1,0 +1,58 @@
+.header {
+  @include flex(space-between, center);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 20px;
+  @include box-shadow(5px, grey);
+  &__collapse {
+    display: none;
+    & .fa-bars {
+      font-size: 2rem;
+    }
+  }
+  &__nav {
+    @include flex(flex-end, center);
+    padding-right: 10px;
+    flex: 1;
+    &--ul {
+      display: flex;
+      list-style-type: none;
+    }
+    &--item {
+      padding: 10px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+  &__logo {
+    display: flex;
+    justify-content: flex-start;
+    & img {
+      width: 50px;
+    }
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    & button {
+      cursor: pointer;
+      border: 2px solid $button-color;
+      padding: 10px;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    &--register {
+      background-color: $button-color;
+      color: white;
+    }
+    &--login {
+      background-color: white;
+      color: $button-color;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Mogra&display=swap");
+* {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  fill: crimson;
+}
+body {
+  background-color: rgb(44, 45, 52);
+}
+h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 4rem;
+  line-height: 5rem;
+  margin: 30px 0 40px 0;
+  color: rgba(255, 255, 255, 0.925);
+}
+main section article {
+  font-size: 2rem;
+  font-family: "Mogra", cursive;
+  color: rgba(245, 222, 179, 0.852);
+  font-size: 3rem;
+  padding: 10% 10% 0 10%;
+  height: 20%;
+}
+li {
+  display: inline-block;
+}
+.topnav a {
+  background-color: wheat;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.795) 0px 3px 8px;
+  padding: 10px;
+  margin: 7px;
+  width: 7rem;
+  font-weight: 600;
+  color: black;
+}
+.topnav a:hover,
+.submitbtn:hover,
+.tothetop a:hover {
+  background-color: rgba(220, 20, 60, 0.8);
+  color: wheat;
+}
+img {
+  height: 200px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: rgb(255, 212, 131);
+  text-decoration: underline;
+}
+.contact {
+  padding: 10% 0 10% 0;
+}
+.contactnav a {
+  font-size: 1.2rem;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.925);
+}
+.contactnav a:hover {
+  color: red;
+}
+.contactnav i {
+  margin-right: 3px;
+}
+footer input,
+textarea {
+  width: 350px;
+  height: 50px;
+  margin: 20px auto 20px auto;
+  display: block;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+footer textarea {
+  height: 150px;
+  padding-top: 20px;
+}
+.submitbtn {
+  background-color: wheat;
+  color: black;
+  font-weight: bold;
+}
+.tothetop {
+  text-align: right;
+  width: 350px;
+  height: 70px;
+  margin: auto;
+  padding: 20px 0 0 0;
+}
+.tothetop a {
+  display: inline-block;
+  background-color: wheat;
+  width: 90px;
+  height: 30px;
+  padding-top: 5px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+}

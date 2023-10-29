@@ -1,0 +1,15 @@
+.footer {
+    @include box-shadow(5px, grey);
+    @include flex(center, center, column);
+    gap: 10px;
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    & i {
+        padding: 5px;
+        transition: color 0.3s ease-in;
+        &:hover {
+            color: $button-color;
+            cursor: pointer;
+        }
+    }
+}

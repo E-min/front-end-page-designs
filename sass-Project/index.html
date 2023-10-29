@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sass Responsive Web site</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__logo">
+        <img src="./assets/Clarusway_Logo.png" alt="" />
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav--ul">
+          <li class="header__nav--item">Home</li>
+          <li class="header__nav--item">Destinations</li>
+          <li class="header__nav--item">About</li>
+          <li class="header__nav--item">Guide</li>
+        </ul>
+      </nav>
+      <div class="header__collapse" id="collapse">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="header__buttons">
+        <button class="header__buttons--login">Login</button>
+        <button class="header__buttons--register">Register</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__home">
+        <div class="main__home--form">
+          <h2 class="main__home--form-h">Explore And Travel</h2>
+          <p class="main__home--form-p">Holiday Finder</p>
+          <form action="" class="main__home--form-container">
+            <div class="main__home--form--select-container">
+              <select
+                class="main__home--form-selecet"
+                name="location"
+                id="location"
+              >
+                <option value="location">Location</option>
+              </select>
+              <select
+                class="main__home--form-selecet"
+                name="activity"
+                id="activity"
+              >
+                <option value="activity">Activity</option>
+              </select>
+              <select class="main__home--form-selecet" name="grade" id="grade">
+                <option value="grade">Grade</option>
+              </select>
+              <select class="main__home--form-selecet" name="date" id="date">
+                <option value="date">Date</option>
+              </select>
+            </div>
+            <input type="submit" value="Explore" />
+          </form>
+        </div>
+        <div class="main__home--img-container">
+          <img
+            class="main__home--img"
+            src="'../../assets/image1.png"
+            alt="traveling man"
+          />
+        </div>
+      </section>
+      <section class="main__destination">
+        <div class="main__destination--img">
+          <img src="./assets/image2.png" alt="" />
+        </div>
+        <div class="main__destination--container">
+          <div class="main__destination--container-text">
+            <h2>A new way to explore the world</h2>
+            <p>
+              For decades travellers have reached for Lonely Planet books when
+              looking to plan and execute their perfect trip, but now, they can
+              also let Lonely Planet Experiences lead the way.
+            </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </section>
+      <section class="main__about">
+        <div class="main__about--header">
+          <h2>Featured destinations</h2>
+          <div>View all ></div>
+        </div>
+        <div class="main__about--photos">
+          <div class="main__about--card-1 card">
+            <div class="card-info">
+              <h5>Fanjingshin</h5>
+              <p>China</p>
+            </div>
+          </div>
+          <div class="main__about--card-2 card">
+            <div class="card-info">
+              <h5>Raja Ampat</h5>
+              <p>Indonesia</p>
+            </div>
+          </div>
+          <div class="main__about--card-3 card">
+            <div class="card-info">
+              <h5>Skadar</h5>
+              <p>Montenegro</p>
+            </div>
+          </div>
+          <div class="main__about--card-4 card">
+            <div class="card-info">
+              <h5>Vevey</h5>
+              <p>Switzerland</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__guide">
+        <div class="main__guide--container">
+          <div class="main__guide--container-text">
+            <h2>Guides by Thousand Sunny</h2>
+            <p>
+              Packed with tips and advice from our on-the-ground experts, our
+              city guides app (iOS and Android) is the ultimate resource before
+              and during a trip.
+            </p>
+            <button>Download</button>
+          </div>
+        </div>
+        <div class="main__guide--img">
+          <img src="./assets/image3.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__icons">
+        <i class="fab fa-twitter fa-2x"></i>
+        <i class="fab fa-facebook fa-2x"></i>
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-github fa-2x"></i>
+        <i class="fab fa-youtube fa-2x"></i>
+      </div>
+      <div class="footer__copyright">All Rights Reserved © 2023</div>
+    </footer>
+  </body>
+  <script src="./js/main.js"></script>
+</html>

@@ -1,0 +1,13 @@
+//browser default reset
+@import "./base/reset";
+//variables and functions
+@import "./abstracts/variables", "./abstracts/mixin";
+
+//sections
+@import "./sections/about", "./sections/destination", "./sections/guide",
+"./sections/home";
+//components
+@import "./components/footer", "./components/header", "./components/responsive";
+
+//font awsome
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
